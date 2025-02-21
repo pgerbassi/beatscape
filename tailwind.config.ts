@@ -54,6 +54,17 @@ export default {
             opacity: "0.8",
           },
         },
+        tilt: {
+          '0%, 50%, 100%': {
+            transform: 'rotate(0deg)',
+          },
+          '25%': {
+            transform: 'rotate(0.5deg)',
+          },
+          '75%': {
+            transform: 'rotate(-0.5deg)',
+          },
+        },
         "slide-up": {
           "0%": {
             transform: "translateY(100%)",
@@ -103,6 +114,9 @@ export default {
         },
       },
       animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'tilt': 'tilt 10s infinite linear',
+        'pulse': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         "pulse-slow": "pulse-slow 3s ease-in-out infinite",
         "slide-up": "slide-up 0.5s ease-out forwards",
         wave: "wave 1.5s ease-in-out infinite",
