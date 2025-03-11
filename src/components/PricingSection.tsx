@@ -81,7 +81,7 @@ const PricingSection = () => {
               </div>
 
               {/* CTA Button */}
-              <a href="https://www.beatstars.com/cart-checkout" target="_blank" rel="noopener noreferrer">
+              <a href="https://bsta.rs/fp9qxP" target="_blank" rel="noopener noreferrer">
               <button className="group/btn relative w-full px-6 py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg font-medium transition-all duration-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] hover:scale-[1.02]">
                 <div className="absolute inset-0 rounded-lg bg-white/20 opacity-0 group-hover/btn:opacity-100 transition-opacity"></div>
                 <div className="flex items-center justify-center gap-2">

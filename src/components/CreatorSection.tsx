@@ -66,7 +66,7 @@ const CreatorSection = () => {
             </div>
 
             <div className="flex gap-4">
-            <a href="https://www.beatstars.com/cart-checkout" target="_blank" rel="noopener noreferrer">
+            <a href="https://bsta.rs/fp9qxP" target="_blank" rel="noopener noreferrer">
               <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg font-medium hover:opacity-90 transition-opacity">
                 Buy Now!
               </button>
