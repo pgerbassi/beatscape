@@ -3,7 +3,7 @@ import { Music4, Wand2 } from 'lucide-react';
 
 const CreatorSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 px-4 relative overflow-hidden">
+    <section className="max-h-screen lg:min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 px-4 relative overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center opacity-50"></div>
@@ -20,7 +20,7 @@ const CreatorSection = () => {
 
             <div className="flex items-center gap-6">
               <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white via-cyan-400 to-emerald-400 bg-clip-text text-transparent">
-                Pietro Gerbassi
+                ProD. Pip
               </h2>
               
               {/* Circular Profile Image */}
@@ -42,7 +42,7 @@ const CreatorSection = () => {
             </div>
 
             <p className="text-gray-300 text-lg leading-relaxed max-w-2xl">
-              With a decade of experience in musical production, Pietro has been pushing the boundaries of sound design and audio innovation. At 27, he's already established himself as a pioneering force in the next generation of audio technology.
+              With a decade of experience in musical production, Pip has been pushing the boundaries of sound design and audio innovation. At 27, he's already established himself as a pioneering force in the next generation of audio technology.
             </p>
 
             <div className="grid grid-cols-2 gap-4 max-w-2xl">
@@ -66,11 +66,13 @@ const CreatorSection = () => {
             </div>
 
             <div className="flex gap-4">
+            <a href="https://www.beatstars.com/cart-checkout" target="_blank" rel="noopener noreferrer">
               <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg font-medium hover:opacity-90 transition-opacity">
-                Connect with Pietro
+                Buy Now!
               </button>
+              </a>
               <button className="px-6 py-3 bg-white/10 rounded-lg font-medium hover:bg-white/15 transition-colors">
-                View Portfolio
+              Connect with Pietro
               </button>
             </div>
           </div>

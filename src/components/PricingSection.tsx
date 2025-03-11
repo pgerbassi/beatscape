@@ -38,7 +38,7 @@ const PricingSection = () => {
               {/* Card Header */}
               <div className="absolute -top-5">
                 <div className="px-4 py-1 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-full text-white font-semibold shadow-lg shadow-cyan-500/20">
-                  Pro Plan
+                  Promo
                 </div>
               </div>
 
@@ -46,10 +46,10 @@ const PricingSection = () => {
               <div className="mt-8 mb-8 text-center">
                 <div className="flex items-start justify-center gap-1">
                   <span className="text-2xl mt-2">$</span>
-                  <span className="text-6xl font-bold">49</span>
-                  <span className="text-2xl mt-2">/mo</span>
+                  <span className="text-6xl font-bold">9,90</span>
+                  <span className="text-2xl mt-2"></span>
                 </div>
-                <p className="text-gray-400 mt-2">Billed monthly</p>
+                <p className="text-gray-400 mt-2">One time payment</p>
               </div>
 
               {/* Features */}
@@ -58,7 +58,7 @@ const PricingSection = () => {
                   <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full bg-cyan-500/10 group-hover/item:bg-cyan-500/20 transition-colors">
                     <Check className="w-4 h-4 text-cyan-400" />
                   </div>
-                  <span className="group-hover/item:text-cyan-400 transition-colors">Unlimited Audio Processing</span>
+                  <span className="group-hover/item:text-cyan-400 transition-colors">More than 700 Brazilian funk timbres</span>
                 </div>
                 <div className="flex items-center gap-3 group/item">
                   <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full bg-cyan-500/10 group-hover/item:bg-cyan-500/20 transition-colors">
@@ -70,28 +70,30 @@ const PricingSection = () => {
                   <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full bg-cyan-500/10 group-hover/item:bg-cyan-500/20 transition-colors">
                     <Check className="w-4 h-4 text-cyan-400" />
                   </div>
-                  <span className="group-hover/item:text-cyan-400 transition-colors">24/7 Priority Support</span>
+                  <span className="group-hover/item:text-cyan-400 transition-colors">Safe Purchase</span>
                 </div>
                 <div className="flex items-center gap-3 group/item">
                   <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full bg-cyan-500/10 group-hover/item:bg-cyan-500/20 transition-colors">
                     <Check className="w-4 h-4 text-cyan-400" />
                   </div>
-                  <span className="group-hover/item:text-cyan-400 transition-colors">Free to use</span>
+                  <span className="group-hover/item:text-cyan-400 transition-colors">Free Licenses</span>
                 </div>
               </div>
 
               {/* CTA Button */}
+              <a href="https://www.beatstars.com/cart-checkout" target="_blank" rel="noopener noreferrer">
               <button className="group/btn relative w-full px-6 py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg font-medium transition-all duration-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] hover:scale-[1.02]">
                 <div className="absolute inset-0 rounded-lg bg-white/20 opacity-0 group-hover/btn:opacity-100 transition-opacity"></div>
                 <div className="flex items-center justify-center gap-2">
                   <Zap className="w-5 h-5" />
-                  <span>Get Started Now</span>
+                  <span>Buy Now</span>
                 </div>
               </button>
+              </a>
 
               {/* Money-back guarantee */}
               <p className="text-gray-400 text-sm mt-6">
-                30-day money-back guarantee
+                7-day money-back guarantee
               </p>
             </div>
           </div>

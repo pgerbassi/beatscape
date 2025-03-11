@@ -2,44 +2,44 @@
 export const beats = [
   { 
     id: 1, 
-    name: "Neon Pulse", 
-    genre: "Trap", 
-    bpm: 140,
+    name: "Vintage Voltmix", 
+    genre: "Funk", 
+    bpm: 130,
     audioUrl: "/public/sounds/som-1.mp3" 
   },
   { 
     id: 2, 
-    name: "Cyber Dreams", 
-    genre: "Hip Hop", 
-    bpm: 95,
-    audioUrl: "/sounds/som-2.mp3" 
+    name: "Bailão SP", 
+    genre: "Funk", 
+    bpm: 130,
+    audioUrl: "/public/sounds/som-2.mp3" 
   },
   { 
     id: 3, 
-    name: "Digital Wave", 
-    genre: "R&B", 
-    bpm: 85,
+    name: "Sample", 
+    genre: "Funk", 
+    bpm: 130,
     audioUrl: "/sounds/som-3.mp3" 
   },
   { 
     id: 4, 
-    name: "Astral Vibes", 
-    genre: "Electronic", 
-    bpm: 128,
+    name: "Bass", 
+    genre: "Funk", 
+    bpm: 130,
     audioUrl: "/sounds/som-4.mp3" 
   },
   { 
     id: 5, 
-    name: "Midnight Soul", 
-    genre: "Soul", 
-    bpm: 90,
+    name: "Sample 02", 
+    genre: "Funk", 
+    bpm: 130,
     audioUrl: "/sounds/som-5.mp3" 
   },
   { 
     id: 6, 
-    name: "Crystal Flow", 
-    genre: "Ambient", 
-    bpm: 75,
+    name: "BH Style", 
+    genre: "Funk", 
+    bpm: 130,
     audioUrl: "/sounds/som-6.mp3" 
   }
 ];

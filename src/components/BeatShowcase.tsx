@@ -52,7 +52,7 @@ const BeatShowcase = () => {
         {/* Beat Previews Section */}
         <div className="mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
-            Featured <span className="text-electric-blue">Beats</span>
+            Package <span className="text-electric-blue">Showcase</span>
           </h2>
           
           <div className="relative h-[400px] flex flex-col items-center justify-center">

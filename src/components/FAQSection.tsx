@@ -49,20 +49,32 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What makes your audio processing unique?",
-      answer: "Our revolutionary soundwave technology uses advanced AI algorithms to analyze and enhance audio in real-time, providing unmatched clarity and depth that traditional processors can't achieve."
+      question: "Why buy our Drum Kit?",
+      answer: "We have a range of unique and quality sounds, gathered in a kit, organized in a way that facilitates and speeds up the creation process of our production partners. Approved by more than 50 music production clients. We guarantee your security against viruses and data theft, and that your product will arrive in perfect condition."
     },
     {
-      question: "How can I integrate this with my current setup?",
-      answer: "Our system seamlessly integrates with all major DAWs and audio interfaces through our plugin system. Simply install, connect, and you're ready to transform your sound."
+      question: "How will I receive my Drum Kit after purchase?",
+      answer: "After completing your purchase, you will receive a secure download link via email instantly. Our delivery system ensures that you get your files safely and without delay."
     },
     {
-      question: "Do you offer support for custom requirements?",
-      answer: "Yes! Our team of audio experts is available 24/7 to help you achieve your specific sound goals. We provide personalized consultation and custom solution development."
+      question: "Is my payment information secure?",
+      answer: "Yes! We use industry-standard encryption and trusted payment processors to keep your information 100% secure. Your data will never be shared or stored."
     },
     {
-      question: "What about data security and backup?",
-      answer: "Your audio data is encrypted end-to-end and stored in secure cloud servers with automatic backups. We ensure your creative work is always protected and accessible."
+      question: "What if I have trouble downloading or using the files?",
+      answer: "If you encounter any issues, our support team is ready to assist you. Just contact us via email or our support chat, and we’ll help resolve your problem as quickly as possible."
+    },
+    {
+      question: "Are the sounds royalty-free?",
+      answer: "Yes! All sounds in our Drum Kit are 100% royalty-free, meaning you can use them in your productions without worrying about copyright claims or additional fees."
+    },
+    {
+      question: "What formats are the files in?",
+      answer: "Our Drum Kit includes high-quality WAV files, ensuring compatibility with all major DAWs such as FL Studio, Ableton Live, Logic Pro, and more."
+    },
+    {
+      question: "Can I get a refund if I’m not satisfied?",
+      answer: "Due to the digital nature of our product, we do not offer refunds. However, if you experience any technical issues, we are more than happy to assist you and ensure that you are satisfied with your purchase."
     }
   ];
 

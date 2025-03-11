@@ -1,3 +1,4 @@
+"use client";
 
 import { useState, useEffect } from 'react';
 
@@ -49,39 +50,42 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-hero-dark/80 via-hero-dark/40 to-hero-dark/90" />
 
       {/* Hero Content */}
-      <div className="relative container mx-auto px-4 pt-20 lg:pt-32">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+      <div className="relative container mx-auto px-4 pt-20 lg:pt-4">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 text-center">
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-white space-y-6">
             <div className={`transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
                  style={{ animationDelay: '0.2s' }}>
               <span className="inline-block px-4 py-1 rounded-full bg-electric-blue/10 backdrop-blur-sm border border-electric-blue/20 text-electric-blue text-sm font-medium mb-4">
-                Next Generation Audio
+                Experience the Brazilian Style
               </span>
             </div>
 
             <h1 className={`text-4xl md:text-6xl font-bold leading-tight transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
                 style={{ animationDelay: '0.4s' }}>
-              Experience the Future 
+              The Drum Kit to
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-electric-blue to-electric-gold ml-2">
-                of Sound
+              Brazilianize
               </span>
+               <span>  your productions</span>
             </h1>
 
-            <p className={`text-gray-400 text-lg md:text-xl max-w-xl transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
+            <p className={`text-gray-400 items-center justify-center content-center text-center text-lg md:text-xl max-w-full md:mx-20 transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
                style={{ animationDelay: '0.6s' }}>
-              Dive into a new dimension of audio with our revolutionary soundwave technology. Transform your music into an immersive experience.
+              Over 700 tones used in the biggest Brazilian funk hits at the best price! check out our "Brazilian funk" drum kit now.
             </p>
 
             {/* CTA Buttons */}
-            <div className={`flex flex-wrap gap-4 transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
+            <div className={`flex flex-wrap gap-4 justify-center transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
                  style={{ animationDelay: '0.8s' }}>
+              <a href="https://www.beatstars.com/cart-checkout" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-4 bg-gradient-to-r from-electric-blue to-electric-gold rounded-lg text-black font-bold hover:shadow-lg hover:shadow-electric-blue/20 transition-all duration-300 hover:-translate-y-0.5">
-                Get Started
+                Buy Now!
               </button>
-              <button className="px-8 py-4 border border-electric-blue/30 rounded-lg text-white backdrop-blur-sm hover:bg-electric-blue/10 transition-all duration-300">
+              </a>
+              {/*<button className="px-8 py-4 border border-electric-blue/30 rounded-lg text-white backdrop-blur-sm hover:bg-electric-blue/10 transition-all duration-300">
                 Learn More
-              </button>
+              </button>*/}
             </div>
           </div>
 
