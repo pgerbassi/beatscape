@@ -130,9 +130,11 @@ const FAQSection = () => {
                 <p className="text-gray-400">Our support team is here to help</p>
               </div>
             </div>
+            <a href="mailto:prodpipcontato@gmail.com">
             <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg font-medium transition-all duration-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] hover:scale-[1.02]">
               Contact Support
             </button>
+            </a>
           </div>
         </div>
       </div>

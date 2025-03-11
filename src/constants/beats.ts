@@ -63,6 +63,6 @@ export const benefits = [
   {
     iconName: "Clock" as const,
     title: "Instant Delivery",
-    description: "Download your beats immediately after purchase"
+    description: "Download your sounds immediately after purchase"
   }
 ];

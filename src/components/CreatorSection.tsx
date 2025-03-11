@@ -71,9 +71,11 @@ const CreatorSection = () => {
                 Buy Now!
               </button>
               </a>
+              <a href="https://www.instagram.com/theprodpip/" target="_blank" rel="noopener noreferrer">
               <button className="px-6 py-3 bg-white/10 rounded-lg font-medium hover:bg-white/15 transition-colors">
-              Connect with Pietro
+              Connect with Pip
               </button>
+              </a>
             </div>
           </div>
         </div>
