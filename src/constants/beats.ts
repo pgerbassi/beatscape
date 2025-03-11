@@ -5,14 +5,14 @@ export const beats = [
     name: "Vintage Voltmix", 
     genre: "Funk", 
     bpm: 130,
-    audioUrl: "/public/sounds/som-1.mp3" 
+    audioUrl: "/sounds/som-1.mp3" 
   },
   { 
     id: 2, 
     name: "Bailão SP", 
     genre: "Funk", 
     bpm: 130,
-    audioUrl: "/public/sounds/som-2.mp3" 
+    audioUrl: "/sounds/som-2.mp3" 
   },
   { 
     id: 3, 
