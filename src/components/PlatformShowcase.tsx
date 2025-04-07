@@ -46,7 +46,7 @@ const PlatformShowcase = () => {
 
         {/* CTA Button */}
         <div className="text-center">
-          <a href="https://bsta.rs/fp9qxP" target="_blank" rel="noopener noreferrer">
+          <a href="https://pay.hotmart.com/G98866701M?bid=1744038366135" target="_blank" rel="noopener noreferrer">
           <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
