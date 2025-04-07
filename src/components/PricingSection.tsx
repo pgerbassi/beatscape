@@ -46,7 +46,7 @@ const PricingSection = () => {
               <div className="mt-8 mb-8 text-center">
                 <div className="flex items-start justify-center gap-1">
                   <span className="text-2xl mt-2">$</span>
-                  <span className="text-6xl font-bold">9,90</span>
+                  <span className="text-6xl font-bold">17,90</span>
                   <span className="text-2xl mt-2"></span>
                 </div>
                 <p className="text-gray-400 mt-2">One time payment</p>
