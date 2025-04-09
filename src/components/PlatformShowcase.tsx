@@ -1,9 +1,13 @@
 
 import { useState } from 'react';
 import { Zap, Sparkles } from 'lucide-react';
+import { useUTMParams } from '@/hooks/use-utm';
 
 const PlatformShowcase = () => {
   const [isHovered, setIsHovered] = useState(false);
+    const utmParams = useUTMParams();
+    const buyLink = "https://pay.hotmart.com/G98866701M?bid=1744038366135";
+    const buyLinkWithUTM = `${buyLink}?utm_source=${utmParams.utm_source}&utm_medium=${utmParams.utm_medium}&utm_campaign=${utmParams.utm_campaign}&utm_term=${utmParams.utm_term}&utm_content=${utmParams.utm_content}`;
 
   return (
     <div className="relative py-24 bg-gradient-to-tr from-cyan-950 via-black to-gray-950 overflow-hidden">
@@ -46,7 +50,7 @@ const PlatformShowcase = () => {
 
         {/* CTA Button */}
         <div className="text-center">
-          <a href="https://pay.hotmart.com/G98866701M?bid=1744038366135" target="_blank" rel="noopener noreferrer">
+          <a href={buyLinkWithUTM} target="_blank" rel="noopener">
           <button
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}

@@ -1,7 +1,11 @@
 import React from 'react';
 import { Music4, Wand2 } from 'lucide-react';
+import { useUTMParams } from '@/hooks/use-utm';
 
 const CreatorSection = () => {
+    const utmParams = useUTMParams();
+    const buyLink = "https://pay.hotmart.com/G98866701M?bid=1744038366135";
+    const buyLinkWithUTM = `${buyLink}?utm_source=${utmParams.utm_source}&utm_medium=${utmParams.utm_medium}&utm_campaign=${utmParams.utm_campaign}&utm_term=${utmParams.utm_term}&utm_content=${utmParams.utm_content}`;
   return (
     <section className="max-h-screen lg:min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 px-4 relative overflow-hidden">
       {/* Background Image with Overlay */}
@@ -66,7 +70,7 @@ const CreatorSection = () => {
             </div>
 
             <div className="flex gap-4">
-            <a href="https://pay.hotmart.com/G98866701M?bid=1744038366135" target="_blank" rel="noopener noreferrer">
+            <a href={buyLinkWithUTM} target="_blank" rel="noopener">
               <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 rounded-lg font-medium hover:opacity-90 transition-opacity">
                 Buy Now!
               </button>
