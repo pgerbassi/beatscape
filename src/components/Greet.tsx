@@ -23,7 +23,7 @@ const Greet = () => {
                 Thank You for Your Purchase!
               </h1>
               <p className="text-white text-center text-lg opacity-90">
-                We're thrilled to have you as our customer
+                
               </p>
             </motion.div>
           </div>
@@ -55,9 +55,9 @@ const Greet = () => {
                       </div>
                     </div>
                     <div>
-                      <h3 className="text-lg font-medium text-gray-900 mb-2">Product Delivery</h3>
+                      <h3 className="text-lg font-medium text-gray-900 mb-2">DrumKit Delivery</h3>
                       <p className="text-gray-600">
-                        Your document will be delivered to your account. Be sure to check your spam or trash folder.
+                        Your Drumkit will be delivered to your email. Be sure to check spam or trash folder.
                       </p>
                     </div>
                   </div>
