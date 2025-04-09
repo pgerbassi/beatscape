@@ -1,5 +1,6 @@
 "use client";
 
+import { useUTMParams } from '@/hooks/use-utm';
 import { useState, useEffect } from 'react';
 
 const Hero = () => {
@@ -8,7 +9,9 @@ const Hero = () => {
   useEffect(() => {
     setIsLoaded(true);
   }, []);
-
+  const utmParams = useUTMParams();
+  const buyLink = "https://pay.hotmart.com/G98866701M?bid=1744038366135";
+  const buyLinkWithUTM = `${buyLink}?utm_source=${utmParams.utm_source}&utm_medium=${utmParams.utm_medium}&utm_campaign=${utmParams.utm_campaign}&utm_term=${utmParams.utm_term}&utm_content=${utmParams.utm_content}`;
   return (
     <div className="relative min-h-screen bg-hero-dark overflow-hidden font-space">
       {/* Animated Background Elements */}
@@ -78,7 +81,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className={`flex flex-wrap gap-4 justify-center transform ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}
                  style={{ animationDelay: '0.8s' }}>
-              <a href="https://pay.hotmart.com/G98866701M?bid=1744038366135" target="_blank" rel="noopener noreferrer">
+              <a href={buyLinkWithUTM} target="_blank" rel="noopener">
               <button className="px-8 py-4 bg-gradient-to-r from-electric-blue to-electric-gold rounded-lg text-black font-bold hover:shadow-lg hover:shadow-electric-blue/20 transition-all duration-300 hover:-translate-y-0.5">
                 Buy Now!
               </button>
