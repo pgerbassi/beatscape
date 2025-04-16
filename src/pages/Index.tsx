@@ -10,8 +10,8 @@ const Index = () => {
   return (
     <>
       <Hero />
-      <BeatShowcase />
-      <PlatformShowcase />
+      /*<BeatShowcase />
+      <PlatformShowcase />*/
       <CreatorSection />
       <PricingSection />
       <FAQSection />
